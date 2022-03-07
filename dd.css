@@ -1,0 +1,1197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,900;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:ital,wght@0,100;0,200;0,400;0,900;1,600&display=swap');
+
+body{
+    min-height: 100vh;
+    
+    
+}
+
+
+
+.section-main{
+  position: relative;
+  width: auto;
+  min-height: 100vh;
+  background: url(/ddimg/kitchen1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.055);
+  -webkit-transition:color 1s ease-in;
+  transition:color 1s ease-in; 
+  transition: 1s ease-in;
+  
+   
+    
+}
+
+
+
+
+
+
+
+
+.landing-pic{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    
+   
+    
+    
+    
+}
+
+.text-wrap{
+    display: grid;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    top: 35%;
+    width: auto;
+  
+    
+}
+
+
+.dd-logo{
+    padding: 0;
+    display: grid;
+    position: absolute;
+    width: 70px;
+    right: 146px;
+    top: -360px;
+    
+  
+    
+
+}
+
+.logo-12{
+
+    display: grid;
+    position:absolute;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    
+    width: auto;
+
+}
+.dd-logo2{
+    padding: 0;
+    top: -14em;
+    left: 145px;
+    display: inline-block;
+    position: absolute;
+    width: 70px;
+  
+    
+
+}
+
+
+.landing-text{
+    display: block;
+    position: relative;
+    color: rgb(230, 236, 255);
+    font-size: 42px;
+    margin-top: -3.7em;
+    font-weight: 800;
+    text-shadow:
+    0.02em 0 rgb(46, 45, 45),
+    0 0.02em rgb(46, 45, 45),
+    -0.02em 0 rgb(46, 45, 45),
+    0 -0.02em rgb(46, 45, 45);
+    
+   
+
+
+}
+
+.section-main .landing-text2{
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: .5em;
+    color: white;
+    text-shadow:
+    0.02em 0 rgb(46, 45, 45),
+    0 0.02em rgb(46, 45, 45),
+    -0.02em 0 rgb(46, 45, 45),
+    0 -0.02em rgb(46, 45, 45);
+   
+   
+
+}
+
+.section-main .hero-text{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 7em;
+    font-size: 23px;
+    font-style: italic;
+    font-weight: 100;
+    text-shadow:
+    0.02em 0 rgb(0, 0, 0),
+    0 0.02em rgb(46, 45, 45),
+    -0.02em 0 rgb(46, 45, 45),
+    0 -0.0em rgb(46, 45, 45);
+    
+
+}
+.section-main .hero-text-2{
+    color: rgb(255, 250, 250);
+    text-align: center;
+    margin-top: 1em;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 100;
+    text-shadow:
+    0.02em 0 rgb(0, 0, 0),
+    0 0.02em rgb(46, 45, 45),
+    -0.02em 0 rgb(46, 45, 45),
+    0 -0.0em rgb(46, 45, 45);
+    
+
+}
+
+.landing-line{
+    border-radius: .2px;
+    display: grid;
+    margin-bottom: 2em;
+    width: 30%;
+    margin: 0 auto;
+    color: white;
+
+}
+.hero-btn{
+    position: relative;
+    display: grid;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.work-btn{
+    background-color: transparent;
+    background-color: rgba(8, 8, 8, 0.507);
+    border-radius: 5%;
+    display: grid;
+    justify-content: center;
+    font-size: 20px;
+    border: grey;
+    width: 200px;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    
+
+}
+
+.work-btn:hover, .work-btn:focus, .work-btn:active{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.section-two{
+    display: block;
+    padding: 2em;
+    position: relative;
+    column-count: 2;
+    display:inline-block;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-top: 3em;
+    letter-spacing: 4px;
+   
+    
+}
+
+.section-two:in-range{
+    transition: 1s ease-in;
+
+}
+.about{
+    display: grid;
+    justify-content: center;
+    margin-top: 4em;
+}
+.about-text{
+    font-size: 39px;
+    font-weight: 400;
+    margin-bottom: .5em;
+    text-align: center;
+
+}
+.about-line{
+    border-radius: .2px;
+    display: grid;
+    margin-bottom: 2em;
+    width: 100%;
+    margin: 0 auto;
+}
+.new{
+    display: grid;
+    margin-top: 1em;
+    font-size: 30px;
+    font-weight: 300;
+    font-stye: bold;
+
+}
+
+.about-us{
+    display: grid;
+    justify-content: center;
+    margin-top: -1em;
+    width: auto;
+    height: auto;
+    background-color: rgba(242, 246, 250, 0.76);
+    background-blend-mode: darken;
+ 
+  -webkit-transition:color 1s ease-in;
+  transition:color 1s ease-in; 
+  transition: 1s ease-in;
+  
+}
+.about-us-head{
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: .5em;
+    display: grid;
+    justify-content: center;
+    margin-top: 1em;
+    text-align: center;
+    color: black;
+
+
+}
+.about-us-line{
+    border-radius: .1px;
+    display: grid;
+    margin-bottom: -3em;
+    width: 20%;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+   
+}
+
+.quotes-line{
+    border-radius: .1px;
+    display: grid;
+    margin-bottom: -3em;
+    width: 40%;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    margin-bottom: 3em;
+   
+}
+
+.d-scott-box{
+    
+    
+    display: grid;
+    position: relative;
+    justify-content: center;
+}
+.dscott-pic{
+    
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.966);
+    width: 400px;
+    
+    margin-top: 2em;
+    justify-content: center;
+    display: grid;
+    position: relative;
+}
+.about-us-text{
+    display: block;
+    position: relative;
+    margin-top: 3em;
+    margin-left: 2em;
+    margin-right: 2em;
+    text-indent: 5%;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px;
+    padding-left: -25px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    color: rgb(0, 0, 0);
+    txt-shadow:
+    0.01em 0 rgb(46, 45, 45),
+    0 0.01em rgb(46, 45, 45),
+    -0.01em 0 rgb(46, 45, 45),
+    0 -0.01em rgb(46, 45, 45);
+   text-align:justify;
+   margin-bottom: 3em;
+   
+}
+
+
+.about-us-2{
+    display: grid;
+    position: relative;
+}
+
+.home-img{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    width: 12%;
+    margin: 0 auto;
+    margin-top: 3em;
+    
+}
+
+.reno-img{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    width: 12%;
+    margin: 0 auto;
+    margin-top: -3em;
+}
+
+
+.new-text{
+    font-size: 15px;
+    letter-spacing: 4px 0 0 10px;
+    font-weight: 200;
+    padding: 5em;
+    margin-top: -3em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+header{
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    transition: 0.5s;
+    margin-bottom: -20em;
+}
+
+header.sticky{
+    opaity: .92;
+    background: rgba(41, 41, 41, 0.719);
+    padding: 20px 100px;
+
+}
+
+header .logo{
+    margin-left: -3.5em;
+   
+    width: 3em;
+    position: relative;
+    display: flex;
+    color: white;
+}
+
+header .brand{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    
+}
+
+header .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header .menu a{
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(255, 249, 249);
+    margin: 0 30px;
+    padding: 0 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+    transition-property: color,;
+}
+
+header .menu a:hover{
+    color: rgb(0, 0, 0);
+    background: white;
+    transition: 0.2s;
+}
+
+header .btn{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+.column{
+   
+    padding: 0;
+    columns: 3;
+    display: grid;
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: rgb(33, 53, 70);
+    
+    -webkit-transition:color 1s ease-in;
+    transition: 1s ease-in; 
+    transition: 1s ease-in;
+    
+    
+
+}
+
+
+
+
+.testimonials{
+    columns: 2;
+    background-color: rgb(245, 244, 244);
+    display: grid;
+    min-height: 700px;
+    z-index: 1;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    font-size: 22px;
+ 
+    
+
+}
+.quotes-img-box{
+    display: flex;
+    position: relative;
+}
+
+.client-testimonials{
+    display: absolute;
+    position: relative;
+    justify-content: center;
+    z-index: 1;
+    margin-top: 3em;
+    
+
+}
+
+.client-head{
+   
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 1em;
+    
+    justify-content: center;
+    margin-top: .5em;
+    text-align: center;
+   
+
+
+}
+.about-us-line{
+    border-radius: .1px;
+    
+    margin-bottom: -3em;
+    width: 40%;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+   
+}
+
+.testimonial-blurb-1{
+    position: relative;
+    justify-content: center ;
+    display: flex;
+    z-index: -2;
+    height: 400px;
+    background-color: rgb(248, 248, 248);
+    margin-top: 4em;
+    width: 600px;
+   text-align: center;
+}
+
+.quotes{
+    position: relative;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    margin-top: -25em;
+    right: -16.5em;
+    
+
+
+}
+
+.testimonial-wrap{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+
+}
+.testimonial-head-1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin-top: 1em;
+    right: -1.3em;
+    font-weight: 400;
+
+    
+}
+.testimonial-text-1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin-top: 2.3em;
+    right: -8.5em;
+    font-weight: 400;
+    font-size: 20px;
+
+    
+}
+
+.quote-box{
+    display: inline-block;
+   
+}
+
+
+
+
+
+.checkmark{
+    position: relative;
+    display: grid;
+    width: 60px;
+    margin-top: 3em;
+    margin-left: 4em;
+
+}
+
+.blurb-1{
+    position: relative;
+    display: grid;
+    margin-bottom: -2em;
+
+}
+.blurb-2{
+    position: relative;
+    display: grid;
+    
+}
+
+.blurb-3{
+    position: relative;
+    display: grid;
+    margin-top: -1em;
+    
+}
+.blurb-4{
+    position: relative;
+    display: grid;
+    margin-top: -4em;
+    
+}
+
+.blurb-head-1{
+    color: rgb(231, 171, 103);
+    position: relative;
+    display: grid;
+    font-weight: 300;
+    margin-left: 7.5em;
+    margin-top: -2.3em;
+    font-size: 22px;
+    
+    
+
+}   
+
+.blurb-text-1{
+    color: rgb(255, 255, 255);
+    position: relative;
+    display: grid;
+    font-weight: 300;
+    margin-left: 11.3em;
+    margin-top: -.7em;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.blurb-text-2{
+    color: rgb(255, 255, 255);
+    position: relative;
+    display: grid;
+    font-weight: 300;
+    margin-left: 11.3em;
+    margin-top: -.9em;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+
+
+.blurb-text-3{
+    color: rgb(255, 255, 255);
+    position: relative;
+    display: grid;
+    font-weight: 300;
+    margin-left: 11.3em;
+    margin-top: -1em;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 3em;
+}
+
+
+.our-work{
+    position: relative;
+    width: auto;
+    min-height: 50vh;
+    height: auto;
+    background: url(/ddimg/kitchen2.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:.02em;
+    background-color: rgba(51, 49, 49, 0.418);
+
+      
+}
+
+.experience{
+    position: relative;
+    width: auto;
+    min-height: 50vh;
+    height: auto;
+    background: url(/ddimg/patio1.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -2.4em;
+    background-color: rgba(51, 51, 51, 0.418);
+    margin-top: -1.5em;
+
+      
+}
+
+.testimonials-wrap{
+    font-size: 24px;
+    position: relative;
+    width: 700px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-top: 3em;
+    letter-spacing: 2px;
+}
+.testimonials-wrap-2{
+    font-size: 24px;
+    position: relative;
+    width: 700px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-top: 3em;
+    letter-spacing: 2px;
+    margin-bottom: 2em;
+}
+
+.quotes-img{
+    position: relative;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    width: 6%;
+    margin: 0 auto;
+    margin-top: -1em;
+    margin-bottom: -1em;
+    
+}
+
+
+
+.our-work-text{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+    margin-top: 0em;
+    font-weight: 400;
+    text-shadow:
+    0.01em 0 rgb(46, 45, 45),
+    0 0.01em rgb(46, 45, 45),
+    -0.01em 0 rgb(46, 45, 45),
+    0 -0.01em rgb(46, 45, 45);
+
+
+ 
+}
+
+.our-work-line{
+    border-radius: .1px;
+    display: grid;
+    margin-bottom: -3em;
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+   margin-top: 1em;
+}
+
+.work-text{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    text-align: center;
+    display: grid;
+    position: relative;
+    margin-top: 2em;
+    font-size: 20px;
+    text-shadow:
+    0.01em 0 rgb(46, 45, 45),
+    0 0.01em rgb(46, 45, 45),
+    -0.01em 0 rgb(46, 45, 45),
+    0 -0.01em rgb(46, 45, 45);
+    padding-left: 12px;
+
+    
+}
+
+.img-gallery{
+    width: 80%;
+    margin: 50px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap: 10px;
+}
+
+.img-gallery img{
+    display: grid;
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.img-gallery img:hover{
+    filter:drop-shadow(50);
+    transform: scale(.9) ;
+    border-radius: 15px;
+    box-shadow: 0 30 5 rgba(68, 77, 136, 0.2);
+}
+
+
+.full-img{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.full-img img{
+    width: 90%;
+    max-width: 500px;
+}
+
+.full-img span{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.contact-section{
+    width: 100%;
+    background-color: rgb(65, 86, 102);
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info{
+    color: rgb(0, 0, 0);
+  
+    line-height: 36px;
+    
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    display:block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    
+
+}
+
+.close-text-box{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 6em;
+
+
+}
+
+.contact-us{
+    color: white;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 2em;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.text-box{
+    width: 300px;
+    margin-right: 1em;
+    height: 40px;
+    display: grid;
+    float: left;
+    border: 3;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+
+.text-box-2{
+    width: 286px;
+    height: 40px;
+    display: grid;
+    position: relative;
+    border: 3;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.send-btn{
+    display: flex;
+    margin-top: .5em;
+    float: right;
+    margin-bottom: 2em;
+    background-color: transparent;
+    background-color: rgba(8, 8, 8, 0.507);
+    border-radius: 5%;
+    justify-content: center;
+    font-size: 20px;
+    border: grey;
+    width: 200px;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    
+    
+    
+}
+.send-btn:hover, .send-btn:focus, .send-btn:active{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+
+.contact-form textarea{
+    justify-content: center;
+    align-items:center ;
+    display: grid;
+    margin-top: 2em;
+    width: 600px;
+}
+
+.social-menu{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100px;
+    
+}
+
+.social-box{
+    position: absolute;
+    
+    justify-content: center;
+    display: grid;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(37, 37, 37);
+}
+
+
+
+
+
+.insta{
+    display: grid;
+    position: absolute;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    margin-top: .5em;
+    padding: 0;
+    margin-left: -4em;
+    
+    
+    
+}
+
+.linkedin{
+    display: grid;
+    position: absolute;
+    height: 65%;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2.1em;
+    padding: 0;
+    margin-left: 1em;
+    
+    
+    
+}
+
+.phone{
+    margin-right: 1em;
+    margin-left: 1em;
+
+
+}
+
+.close-text{
+    position: relative;
+   
+    text-align: center;
+    justify-content: center;
+    display: block;
+    margin-top: 2em;
+
+
+}
+.facebook{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    margin-left: -10em;
+}
+
+
+
+
+@media screen and (max-width: 930px) {
+
+    .section-main{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    header .btn{
+        display: block;
+    }
+
+    header .menu{
+        position: fixed;
+        background: white;
+        flex-direction: column;
+        min-width: 100px;
+        height: 60vh;
+        top: 0;
+        right: -100%;
+        padding: 80px 50px;
+        transition: 0.5s;
+        transition-property: right;
+        color: black;
+      
+    }
+
+    header .menu.active{
+        right: 0;
+    }
+
+    header .menu .close-btn{
+       position: absolute;
+       top: 0;
+       left: 0;
+       margin:25px 
+    }
+
+    header .menu a{
+        display: block;
+        font-size: 20px;
+        margin: 20px;
+        padding: 0 15px;
+    }
+
+
+          
+    .section-two{
+        columns: 2;
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        margin-top: 3em;
+    }
+    
+    .about-text{
+        font-size: 39px;
+        font-weight: 400;
+        margin-bottom: .5em;
+    
+    }
+    .about-line{
+        border-radius: .2px;
+        display: grid;
+        margin-bottom: 2em;
+        width: 100%;
+        margin: 0 auto;
+    }
+ 
+    
+    .home-img{
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        width: 12%;
+        margin: 0 auto;
+        margin-top: 3em;
+    }
+    
+    .reno-img{
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        width: 12%;
+        margin: 0 auto;
+        margin-top: -3em;
+    }
+
+
+    .new{
+        display: grid;
+        margin-top: 1em;
+        font-size: 30px;
+        font-weight: 300;
+        color: rgb(0, 0, 0);
+        
+    
+    }
+    header .menu a{
+        font-size: 18px;
+        font-weight: 500;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+       
+        border-radius: 5px;
+        transition: 0.3s;
+        transition-property: color,;
+    }
+    
+    header .menu a:hover{
+        color: rgb(255, 251, 251);
+        background: rgb(0, 0, 0);
+        transition: 0.3s;
+    }
+
+
+   
+ 
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+    
+  
+   
+
+
+
+   
+
+
+
+
+
+
+ 
