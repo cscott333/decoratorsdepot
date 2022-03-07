@@ -19,7 +19,7 @@ body{
   position: relative;
   width: auto;
   min-height: 100vh;
-  background: url(/ddimg/kitchen1.jpg) no-repeat;
+  background: url(ddimg/kitchen1.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -686,7 +686,7 @@ header .btn{
     width: auto;
     min-height: 50vh;
     height: auto;
-    background: url(/ddimg/kitchen2.jpg);
+    background: url(ddimg/kitchen2.jpg);
     background-size: cover;
     background-blend-mode: darken;
     background-position: center;
@@ -704,7 +704,7 @@ header .btn{
     width: auto;
     min-height: 50vh;
     height: auto;
-    background: url(/ddimg/patio1.jpg);
+    background: url(ddimg/patio1.jpg);
     background-size: cover;
     background-blend-mode: darken;
     background-position: center;
